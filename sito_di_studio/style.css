@@ -1,0 +1,8 @@
+/*CSS DOCUMENT*/
+*{
+    margin: 0;
+    border: 0;
+}
+h1#titolo{
+    margin-bottom: 60px;
+}
