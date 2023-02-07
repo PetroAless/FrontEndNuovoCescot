@@ -24,6 +24,7 @@ div nav{
     height: 100%;
     padding-top: inherit;
     padding-bottom: inherit;
+    padding:inherit;
     
 }
 div nav ul{
@@ -31,15 +32,26 @@ div nav ul{
     list-style-type: none;
     background-color: aqua;
     height: 100%;
-    padding: inherit;
-}
-
-div#logo{
     
+    
+}
+div#logo{
+    background-color: blanchedalmond;
+    margin-top: ;
+    align-items: center;
 }
 div#logo li a img{
-    width: 10%;
+    height: 3rem;
+}
+
+div nav ul div#altriPulsanti{
+    display: inherit;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+div nav ul div#altriPulsanti li{
+    background-color: burlywood;
     
-    background-color: blanchedalmond;
 }
 
