@@ -37,11 +37,11 @@ div nav ul{
 }
 div#logo{
     background-color: blanchedalmond;
-    margin-top: ;
-    align-items: center;
+    margin-top: 2%;
+    height: 2rem;
 }
 div#logo li a img{
-    height: 3rem;
+    height: 2rem;
 }
 
 div nav ul div#altriPulsanti{
