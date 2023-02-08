@@ -1,0 +1,108 @@
+jpg è un formato compresso 
+gif formato abbastanza leggero
+png è un buon compromesso
+
+
+Box sizing rende la grandezza dell'elemento comprendendo anche il padding e il border
+se si aggiunge padding da qualche parte, lo spazio verra preso dalla totale width*height dell'elemento.
+
+
+A cascata ovvero <style> 
+1)"inline" (es: <h1 style=".."> </h1>)
+2)nel file html <style></style>
+3)nello style.css
+
+
+
+-----------------------------------------------------------
+Andrea Baioni
+Analisi della digital identity
+
+Strumenti utilizzati fondamentali:
+	Google
+		Google search engine
+			importante sapere il "valore" del sito 			relativamente al search engine
+		Google webmasters tools
+			strumento per controllare lo stato del sito rispetto al					search engine e per ottimizzarla 
+		Google Analytics
+			
+
+Indicizzazione delle pagine di un sito: 
+3 fasi:
+1) Crawling
+2) Indexing (indicizzazione)
+3) Ranking (posizionamento)
+
+1) Il search engine (da ora SE) utilizza dei "CRAWLER" (un bot di un SE per indicizzare le contenuti in ogni pagina di internet) che vanno a salvare ogni singolo contenuto e conservato.
+Il crawler passa un tempo x non definito su tutti i siti, potrebbe non indicizzare tutte le pagine (importante produrre un numero non troppo grande di pagine) (processo che avviene ogni x tempo).
+2) Dopo il processo di salvataggio dei contenuti, inizia l'indicizzazione di tutti i contenuti salvati, interpretandoli e associa dei "tag" ad ognuno.
+I tag del crawler vengono assegnati anche in base ai contenuti interni all'immagine o al video, analizzando e associando i tag in base a ciò che riconosce. Di conseguenza i contenuti del sito devono essere DISTINGUIBILI in modo che possano essere indicizzati con facilità.
+
+3) Infine il sito viene posizionato in base a:
+-chi fa la ricerca
+-da dove fa la ricerca
+-come fa la ricerca
+-da che dispositivo fa la ricerca
+ecc
+
+Nelle ricerche google per aumentare la probabilità di "click" viene inserito sotto al titolo della pagina uno "Snippet" ovvero una micro descrizione (consigliata dal creatore del sito oppure scelta da google) che renda più accattivante il sito stesso
+
+Caratteristiche che influenzano sul ranking, Responsiveness e Mobile-friendly:
+-Responsive è un sito che è graficamente adattabile in base alla grandezza dello schermo del dispositivo
+-Mobile-friendly è un sito che si adatta in ottica dell'usabilità
+
+
+
+-----------------------------------------------------------
+Pier Paolo Longo
+Sicurezza sul lavoro 
+
+Malattie professionali sono malattie che si possono contrarre solamente nell'ambiente della azienda
+"terminalisti pausa di 15 minuti ogni 2 ore davanti allo schermo" ovvero smettere di guardare lo schermo ogni 2 ore.
+
+
+Primo responsabile della sicurezza sul lavoro è il datore di lavoro
+DLGS 81/08
+
+Azienda:
+	responsabilità
+-penale prigione o altro
+-civile (somma di denaro decisa dal giudice data a chi subisce il danno)
+-amministrativa (multa pagata allo stato)
+
+	Formazione Rischio
+-parte generale 4 ore test con attestato a vita
+
+-rischio specifico
+	rischio basso 4 ore test attestato per 5 anni
+	medio 8 ore
+	alto 12 ore 
+
+	Assicurazione obbligatoria datore stato
+-lucro cessante è uno stipendio di massimo 180 giorni su 2 anni solari
+
+-Danni emergente (spese mediche e di riabilitazione)
+
+-Danno Biologico(danno fisico permanente) in base anche alla percentuale di invalidità
+	1%-5% Franchigia
+	6%-15% una cifra una tantum (somma di denaro)
+	16%-100% pensione di invalidità
+
+
+Infortunio
+	Lesione (ferita traumatica - visibile)
+	violenta (immediata rispetto all'azione)
+	in occasione di lavoro 
+	che determina inabilità temporanea o permanente
+
+
+Organizzazione Obbligatoria
+	datore -> valutazione dei rischi
+	RSPP -> responsabile servizio prevenzione e protezione
+	Medico competente -> compilazione della cartella sanitaria
+	RLS -> rappresentante dei lavoratori per la sicurezza (non responsabilità aggiunta e nemmeno retribuzione aggiunta)
+	Addetto al servizio antincendio
+	Addetto al primo soccorso
+
+
+

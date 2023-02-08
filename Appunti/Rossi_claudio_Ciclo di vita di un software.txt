@@ -1,0 +1,92 @@
+CICLO DI VITA DI UN SOFTWARE
+	 _______________
+ ----->	|    Analisi	|
+|		|		Sistema Top-down per lo sviluppo di un software
+|		V	
+|	 _______________
+|	| Progettazione	|
+|		|
+|		V
+|	 _______________
+|	|Implementazione|
+|		|
+|		V
+|	 _______________
+|	|    Collaudo	|
+|		|
+|		V
+|	 _______________
+|	| Distribuzione	|
+|		|
+|		V
+|	 _______________
+|	|  Manutenzione |
+|		|
+|_______________|		Diventa un ciclo, chiamato sistema Agile e sono 2 sistemi
+				diversi in base all'aggiornamento del software
+
+
+-------------------------------ANALISI---------------------------------
+Il processo di analisi produce un documento di SPECIFICHE FUNZIONALI
+ha l'obiettivo di definire i bisogni ovvero:
+L'analista intervista il cliente per estrarre una serie di info:
+-ambito operativo (in particolare hardware e software es: mac, windows, cloud ecc)
+-tipo di utenza
+-input
+-output
+-(dove presenti) Flussi di trasformazione
+
+--------INTERFACCE
+interfaccia/mockup
+un'interfaccia è un sistema software che dialoga con l'utente
+un mockup è un bozzetto delle interfacce visualizzate sulle periferiche target
+
+responsiveness, ovvero adattabilità per cambiare aspetto in base alla periferica
+
+
+
+------------------------------PROGETTAZIONE---------------------------------
+Documento di specifiche -> schema funzionale
+
+Lo schema funzionale è la base per poi creare un UML, che verrà poi utilizzato per costruire il progetto con una base di pseudo-codice 
+Lo schema è costruito da blocchi collegati tra loro da interfacce software
+
+Ogni blocco dello schema può essere scomposto in più blocchi; questa scomposizione può essere effettuata in 2 momenti, in fase progettuale o in fase di implementazione; la scomposizione è libera, purchè si mantengano le specifiche dello schema.
+
+
+
+----------------------------CONTROLLO DI VERSIONE-----------------------------
+Il controllo di versione è un sistema client-server che consente di :
+-sincronizzare file fra più computer
+-scegliere quali file sincronizzare e quando sincronizzarli
+-mantenere l'intera storia di ogni file
+
+esistono diversi protocolli di controllo di versione, per esempio GIT
+per utilizzare git servono, un server e un client. 
+server:github.com
+client:
+	-git.exe
+	-tortoisegit
+	-visual studio code
+
+
+
+
+PER USO DI GITHUB AT HOME
+(forse necessario visual studio code
+INSTALLA TORTOISEGIT (GUI per utilizzare il client git)
+INSTALLA git.exe è un client git a riga di comando (^usa questo come GUI)
+(seleziona vs code come main editor)
+passa su tortoise e non inserire subito le credenziali
+poi fine
+
+-clonare il repository, ovvero la cartella in locale che potrà essere caricata su git
+
+(andranno adesso impostate le credenziali (right click->git committ||git settings)
+(poi su github: settings->delevoper settings->tokens(classic)-> sempre classico
+Comando Committ: conferma le modifiche ai file locali
+Comando Push: pubblica le committ sul server 
+Comando Revert: riporta il file all'ultima committ
+Comando Pull: scarica le modifiche dal server al repository locale
+
+
