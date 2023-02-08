@@ -106,3 +106,28 @@ Organizzazione Obbligatoria
 
 
 
+
+
+
+
+---------------------------------------------------
+ZACCHERONI
+					PROGETTAZIONE
+Microsoft project, 
+project libre è gratuito, come sostituto di Microsoft project.
+
+
+
+Progetto è una attività unica
+Processo è una attivita che si ripete di continuo
+Programma è un insieme di progetti correlati:
+.Program management
+.Project management
+
+Wbs
+
+
+(Algo build oppure cmap tool, xmind, ecc per la costruzione di diagrammi di flusso)
+
+
+
