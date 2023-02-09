@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="UTF-8">
+        <title>Position</title>
+        <style>
+            .genitore{
+                position:relative;
+                margin-top: 50px;
+                padding: 5px;
+                background-color: bisque;
+                width: 550px;
+                height: 600px;
+            }
+            .figlio{
+                padding: 5px;
+                width: 540px;
+            }
+            .figlio-uno{
+                position:sticky;
+                top:20px;
+                left:0px;
+                background-color: red;
+            }
+            .figlio-due{
+                background-color: green;
+            }
+            .figlio-tre{
+                background-color: blue;
+            }
+            body{
+                height:1500px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div class="genitore">
+            <div class="child-uno figlio-uno figlio">Uno</div>
+            <div class="child-due figlio-due figlio">Due</div>
+            <div class="child-tre figlio-tre figlio">Tre</div>
+        </div>
+    </body>
+</html>

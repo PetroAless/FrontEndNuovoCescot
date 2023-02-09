@@ -12,46 +12,63 @@ h1#titolo{
 
 div#navbar{
     width: 100%;
-    height: 200px;
-    background-color: aliceblue;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    padding-left: 2px;
+    height: 120px;
+    /*background-color: aliceblue;*/
+    padding-top: 16px;
+    padding-bottom: 16px;
+    
 }
 div nav{
-    background-color: antiquewhite;
-    width: 100%;
-    height: 100%;
-    padding-top: inherit;
-    padding-bottom: inherit;
-    padding:inherit;
+    /*background-color: antiquewhite;*/
     
 }
 div nav ul{
     display: flex;
     list-style-type: none;
-    background-color: aqua;
-    height: 100%;
-    
-    
+    background-color: black;
+    padding-left: 0;
 }
-div#logo{
-    background-color: blanchedalmond;
-    margin-top: 2%;
-    height: 2rem;
-}
+
 div#logo li a img{
-    height: 2rem;
+    height: 100px;
+    display: block;
 }
 
 div nav ul div#altriPulsanti{
     display: inherit;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding-top: 10px;
+    /*background-color: burlywood;*/
+    width: 100%;
+    height: 100px;
 }
 div nav ul div#altriPulsanti li{
-    background-color: burlywood;
-    
+    width: 100%;
+    height: 100px;
+    color: white;
+    text-align: center;
 }
-
+ul.tendina{
+    display: none;
+    background-color: black;
+    position: relative;
+    top:30px;
+    width: 100%;
+}
+ul.tendina li a{
+    font-size: 20px;
+}
+li:hover ul.tendina{
+    display: flex;
+}
+div nav ul div#altriPulsanti li:hover{
+    background-color: white;
+    color: black;
+}
+div nav ul div#altriPulsanti li a{
+    padding-top: 33px;
+    padding-bottom: 33px;
+    text-decoration:none;
+    color: inherit;
+    display:block;
+    height: 33px;
+    font-size: 30px;
+}
