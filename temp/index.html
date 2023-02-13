@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<!--<link rel="stylesheet" href="style.css">-->
+		<title>index</title>
+		<style>
+			*{
+				box-sizing:border-box;
+				border:0;
+				margin:0;
+				padding:0;
+			}
+			ul{
+				list-style-type:none;
+				
+			}
+			header{
+			}
+			nav{
+			}
+			#navbar{
+				background-color:black;
+				height:100px;
+			}
+			a{
+				text-decoration:none;
+			}
+			#sx{
+				float:left;
+			}
+			#dx{
+				display:flex;
+				float:right;
+				height:inherit;
+				width:400px;
+			}
+			#dx li{
+				height:inherit;
+				flex-basis:25%;
+				color:white;
+
+			}
+			#dx li:hover{
+				background-color:white;
+				color:black;
+			}
+			#dx li a{
+				display:flex;
+				width:100%;
+				height:100px;
+				background-color:inherit;
+				color:inherit;
+				justify-content:center;
+				align-items:center;
+			}
+			#tendina{
+				position:relative;
+				top:20px;
+			}
+			#tendina li{
+				background-inherit;
+			}
+
+			
+		</style>
+	</head>
+	<body>
+		<header>
+			<nav>
+				<ul id="navbar">
+					<div id="sx">
+						<li>
+							<a href="#"><img src="logo.jpg" alt="logo"></a>
+						</li>
+					</div>
+					<div id="dx">
+						<li>
+							<a href="#">HOME</a>
+							<ul id="tendina">
+				<li>
+					prodotto1
+				</li>
+				<li>
+					prodotto2
+				</li>
+				</ul>
+						</li>
+						<li>
+							<a href="#">SERVIZI</a>
+						</li>
+						<li>
+							<a href="#">PRODOTTI</a>
+						</li>
+						<li>
+							<a href="#">CONTATTI</a>
+						</li>
+					</div>
+				</ul>
+			</nav>
+		</header>
+	</body>
+</html>
