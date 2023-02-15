@@ -29,6 +29,10 @@
 			#sx{
 				float:left;
 			}
+			img{
+				display:block;
+				height:100px;
+			}
 			#dx{
 				display:flex;
 				float:right;
@@ -56,10 +60,23 @@
 			}
 			#tendina{
 				position:relative;
-				top:20px;
+				top:0px;
+				display:none;
+				height: 52px;
+			}
+			li:hover ul#tendina  {
+				display: block;
+				background-color: black;
+				
+			}
+			li:hover ul#tendina li:hover{
+				border:solid 1px;
 			}
 			#tendina li{
-				background-inherit;
+				height:25px;
+			}
+			#tendina li a{
+				height:25px;
 			}
 
 			
@@ -77,23 +94,39 @@
 					<div id="dx">
 						<li>
 							<a href="#">HOME</a>
-							<ul id="tendina">
-				<li>
-					prodotto1
-				</li>
-				<li>
-					prodotto2
-				</li>
-				</ul>
 						</li>
 						<li>
 							<a href="#">SERVIZI</a>
+							<ul id="tendina">
+								<li>
+									<a href="#">prodotto1</a>
+								</li>
+								<li>
+									<a href="#">prodotto2</a>
+								</li>
+							</ul>
 						</li>
 						<li>
 							<a href="#">PRODOTTI</a>
+							<ul id="tendina">
+								<li>
+									<a href="#">prodotto1</a>
+								</li>
+								<li>
+									<a href="#">prodotto2</a>
+								</li>
+							</ul>
 						</li>
 						<li>
 							<a href="#">CONTATTI</a>
+							<ul id="tendina">
+								<li>
+									<a href="#">prodotto1</a>
+								</li>
+								<li>
+									<a href="#">prodotto2</a>
+								</li>
+							</ul>
 						</li>
 					</div>
 				</ul>
