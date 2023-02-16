@@ -1,0 +1,75 @@
+
+*{
+    box-sizing:border-box;
+    border:0;
+    margin:0;
+    padding:0;
+}
+/*NAVBAR CSS*/
+
+#navbar{
+    list-style-type:none;
+    background-color:black;
+    height:100px;
+}
+a{
+    text-decoration:none;
+}
+#sx{
+    float:left;
+}
+img.logoHome{
+    display:block;
+    height:100px;
+}
+#dx{
+    display:flex;
+    float:right;
+    height:inherit;
+    width:400px;
+}
+#dx li{
+    height:inherit;
+    flex-basis:25%;
+    color:white;
+}
+#dx li:hover{
+    background-color:white;
+    color:black;
+}
+#dx li a{
+    display:flex;
+    width:100%;
+    height:100px;
+    background-color:inherit;
+    color:inherit;
+    justify-content:center;
+    align-items:center;
+}
+#tendina{
+    list-style-type:none;
+    position:relative;
+    top:0px;
+    display:none;
+    height: 100px;
+}
+li:hover ul#tendina  {
+    display: block;
+    background-color: black;
+}
+li:hover ul#tendina li:hover{
+    border:solid 1px;
+}
+#tendina li{
+    height:49px;
+}
+#tendina li a{
+    height:49px;
+}
+/* FINE NAVBAR CSS*/
+
+
+
+img{
+
+}

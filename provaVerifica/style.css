@@ -1,0 +1,100 @@
+*{
+    border:0px;
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+ul{
+    display: flex;
+    background-color: lightgray;
+    height: 100px;
+    justify-content: space-between;
+}
+#logoHeader{
+    margin: 20px;
+    height: 60px;
+}
+
+#logoHeader img{
+    display:block;
+    height: 60px;
+}
+#navbarDx{
+    display:flex;
+    list-style-type: none;
+    height: 100px;
+    justify-content: end;
+}
+#navbarDx li{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    align-self: center;
+}
+#navbarDx li a{
+    padding: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+
+h1.title{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 50px;
+    color: #5582ff;
+}
+#homePageConFoto{
+    padding: 30px;
+    width: 70%;
+    margin:auto;
+}
+#homePageConFoto img{
+    height: auto;
+    width: 100%;
+}
+#homePageConFoto p{
+    margin-top: 10px;
+    text-align: justify;
+}
+#ultimiLavoriImg{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    height: 563px;
+    padding:30px;
+    margin:auto;
+    justify-content: space-between;
+    align-content: space-around;
+}
+#ultimiLavoriImg img{
+    height:auto;
+    width: 32%;
+}
+
+
+#footerUp{
+    background-color: lightgrey;
+    display: flex;
+    height: 150px;
+    justify-content: space-around;
+    align-items: center;
+    color: darkgrey;
+    text-align: center;
+}
+#p1{
+    color:grey;
+}
+#footerUp p,#footerUp img{
+    margin-top: 5px;
+}
+#footerDown{
+    height: 80px;
+    background-color: grey;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
