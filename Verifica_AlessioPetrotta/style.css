@@ -25,9 +25,23 @@ ul{
     list-style-type: none;
 }
 a{
-    padding: 30px;
+    padding: 17px;
     text-decoration: none;
     color: black;
+}
+li{
+    padding-left:5px;
+    padding-right:5px;
+}
+li a:hover{
+    border:0.1px solid;
+    border-radius: 12px;
+    padding:16px;
+}
+li a:hover#primoTasto{
+    background-color: #ebe9ac;
+    position: relative;
+    z-index: 1;
 }
 #sectionPreMainConHeader{
     background-image: url('materiale/sfondo.jpg');

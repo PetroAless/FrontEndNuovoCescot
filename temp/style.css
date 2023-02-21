@@ -17,18 +17,25 @@ section#immagini{
 #title{
     font-size: 40px;
 }
-
+img{
+    width: 100%;
+}
 /*
 576 per smartphone
 768 tablet
 992 laptop
 1002 dispositivi più grandi
 */
-@media (max-width:1310px){
+@media (min-width:1531px){
     body{
         background-color: burlywood;
     }
     #immagini{
         
+    }
+}
+@media (max-width:1530px){
+    body{
+        background-color: greenyellow;
     }
 }
