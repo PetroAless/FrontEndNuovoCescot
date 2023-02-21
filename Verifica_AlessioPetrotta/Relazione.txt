@@ -1,0 +1,29 @@
+Dopo aver creato il wireframe, inizio la struttura seguendo il medesimo;
+partendo dalle capsule più grandi fino a quelle più piccole.
+Nel wireframe si può vedere un arco di circonferenza non posizionato in un
+contenitore specifico, preferisco lasciare quel problema per ultimo che poi
+andrò a posizionare nel main e spostato con la proprietà position.
+Successivamente inizio con il foglio di stile azzerando e stabilendo le
+proprietà più comuni.
+Procedo poi con la seconda parte sotto l'header ma prima del main posizionando
+l'article e l'immagine in flex e lavorando sulle grandezze e sulla posizione
+degli elementi dell'article.
+
+Passo alla prima sezione del main, con le prime complessità da risolvere,
+stabilisco la struttura come previsto e posiziono le immagini con le 
+rispettive didascalie allegate. Per quanto riguarda la striscia di colore
+verde nel background me ne occupo alla fine in coda all'arco di circonferenza
+
+La seconda sezione del main richiede più attenzione sulla grandezza delle immagini
+e anche dei contenitori in cui si trovano, utilizzo 2 flex innestati 
+per ottenere il posizionamento con 1 immagine a sinistra e 2 in colonna
+
+Il footer infine ho utilizzato diversi flex soprattutto per l'elemento di
+destra per ottenere quel posizionamento
+
+
+Creo la seconda pagina chiamata eventi copiando una base dall'index
+e poi aggiungo contenuti alla pagina con immagini e paragrafi
+
+Eventi.html è ancora da completare, soprattutto per problemi di aspetto
+

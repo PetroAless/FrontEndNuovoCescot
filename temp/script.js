@@ -21,7 +21,7 @@ var sWidth=section[0].offsetWidth;
 var aHeight=article[0].offsetHeight;
 var sHeight=section[0].offsetHeight;
 
-var speed=0.3;
+var speed=0.6;
 var x=0;
 var x1=speed;
 var y=0;
