@@ -1,0 +1,8 @@
+Strutturo un sito in base alla consegna.
+Parto dall'html seguendo il wireframe e creo una struttura con diversi incapsulamenti degli elementi.
+Creo un header con due strutture principali: logo a sx e una barra di navigazione a destra.
+
+Successivamente passo al cuore della pagina, strutturando un titolo con una immagine e 3 paragrafi, tutti nella stessa "capsula".
+Creo un'altra capsula con un altro titolo e sotto 6 immagini distanziate tra loro.
+
+Infine un footer con informazioni importanti, link ai social ed un fac-simile di copyright e di chi lo ha scritto.
