@@ -1,0 +1,36 @@
+*{
+    
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+ul{
+    display: flex;
+    background-color: lightgray;
+    height: 100px;
+    list-style-type: none;
+    justify-content: space-around;
+}
+ul li{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    align-self: center;
+}
+ul li a{
+    padding: 20px;
+    color: black;
+    text-decoration: none;
+}
+main{
+    font-size: 70px;
+    font-weight: bolder;
+}
+.class{/*default class to be used for checking or more*/
+    background-color: rgba(0, 255, 255, 0.329);
+}
+#id{/*default id to be used for checking or more*/
+    color:rgba(190, 16, 138, 0.479);
+}
+section{
+    padding: 30px;
+}

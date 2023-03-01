@@ -1,0 +1,41 @@
+(server restful?)
+
+
+Xdebug è un sistema di debug per PHP, per la precisione è un'estensione PHP
+guida su eurosoftlab.com/frontend, oppure tramite accesso alle whiteboard con alessio.petrotta@outlook.it
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-------------------------------------PHP-------------------------------------------
+            /*  per fare un cambiamento allo stile
+            echo "<style>
+                body{
+                    background-color:green;
+                }
+                </style>"
+            */
+            //u can add tags and style to work on virtually everything  
+
+
+------      si possono stampare pezzi di html come <head></head> oppure altri tag utili, in modo da poterli riutilizzare su ogni
+            pagina php
+
+------      una funzione può avere parametri opzionali, definendo il valore di default di quel parametro
+            figo!
+
+
+            
+
+
