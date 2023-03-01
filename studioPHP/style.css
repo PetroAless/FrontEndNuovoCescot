@@ -31,3 +31,6 @@ main{
 #id{/*default id to be used for checking or more*/
     color:rgba(190, 16, 138, 0.479);
 }
+section{
+    padding: 30px;
+}

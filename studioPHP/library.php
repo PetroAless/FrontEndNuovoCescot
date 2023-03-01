@@ -74,15 +74,18 @@
     }
 
     //function repeat (number e string) prints the string as many times as the number and endline after every print
+    //tag section added for exercise 
     function repeat($number, $string,$checker=false){
+        $tmp="";
+        echo "<section>";
         for($i=0;$i<$number;$i++){
-            if($checker){ //put a checker to check the number
-                echo $i+1 ." ";
-            }
-            echo printDiv($string . "<br>","class","id");
+            $tmp = $checker ? $i+1 . " " : "";//checker and tmp are used to count on screen the number of times 
+            //and to check functionality
+            echo printDiv($tmp.$string . "<br>","class","id");
         }
+        echo "</section>";
     }
 
-    
+
 
 ?>
