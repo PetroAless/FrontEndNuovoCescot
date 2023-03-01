@@ -1,44 +1,26 @@
-<!DOCTYPE html>
+<?php
+    /**MAIN PHP WITH HEADER
+     * 
+     *  IT CONTAINS A THE BASIC HEADER WITH A REFERENCE TO ALL OTHERS PHP (OR FUTURE OTHERS)
+     *  CONTAINS ALSO FUNCTION CALLS TO TRY EM.
+     * 
+     */
+    include("library.php");//functions done by me
+?>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
-        <title>Document</title>
-        <style>
-            div{
-                margin-right:10px;
-            }
-        </style>
-    </head>
+    <?php printHead(); //print the head to make code more synthetic 
+    ?>
     <body>
-    <header>
-        <nav>
-            <ul>
-                <div id="logoHeader">
-                </div>
-                <div id="navbarDx">
-                    <li><a href="#">index</a></li>
-                    <li><a href="funzioni.php">2</a></li>
-                    <li><a href="#">3</a></li>
-                    <li><a href="#">4</a></li>
-                    <li><a href="#">5</a></li>
-                    <li><a href="#">6</a></li>
-                </div>
-            </ul>
-        </nav>
-    </header>
-        
-        
-        
-       
+        <?php printHeader();//print the basic header with style and what not 
+        ?>
 
         <?php
+
+            
             // ------------------"MAIN"----------------
-            include 'funzioni.php';
-            //stampaBelSito();
-            stampaNDiv(20);
+            //stampaBelSito();//print with a bit of style
+            //stampaNDiv(20);//print with n of div and a little bit of more complex css to understand
+            
 
 
         ?>

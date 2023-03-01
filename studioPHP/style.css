@@ -10,29 +10,15 @@ ul{
     display: flex;
     background-color: lightgray;
     height: 100px;
-    justify-content: space-between;
-}
-#logoHeader{
-    margin: 20px;
-    height: 60px;
-}
-
-#logoHeader img{
-    display:block;
-    height: 60px;
-}
-#navbarDx{
-    display:flex;
     list-style-type: none;
-    height: 100px;
-    justify-content: end;
+    justify-content: space-around;
 }
-#navbarDx li{
+ul li{
     padding-top: 30px;
     padding-bottom: 30px;
     align-self: center;
 }
-#navbarDx li a{
+ul li a{
     padding: 20px;
     color: black;
     text-decoration: none;
