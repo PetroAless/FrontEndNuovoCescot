@@ -37,9 +37,9 @@
         <?php
             // ------------------"MAIN"----------------
             include 'funzioni.php';
-            stampaBelSito();
-            //stampaNDiv(20);
-            
+            //stampaBelSito();
+            stampaNDiv(20);
+
 
         ?>
     </body>
