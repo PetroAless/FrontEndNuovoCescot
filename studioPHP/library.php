@@ -5,15 +5,11 @@
      * 
      * 
      */
-    //u can add tags and style to work on virtually everything  
-
-
-    
+    const colors = ["black","green","red","blue","yellow","pink","orange","brown","grey"];
+    const colorsLength = 9;
     function stampaBelSito(){ //print of a bit of style with a micro array of colors, also BEL SITO TOBIAS
-        $y=["black","green","red","blue","yellow","pink","orange","brown","grey"];
-        $arrayLenght=count($y);
-        for($i=0;$i<$arrayLenght;$i++){
-            $x="<div style=color:".$y[$i].">bel sito tobias</div>";
+        for($i=0;$i<colorsLength;$i++){
+            $x="<div style=color:".colors[$i].">bel sito tobias</div>";
             echo $x;
         }
     }
@@ -41,7 +37,7 @@
     }
 
 
-    
+    //print functions of big pieces of html page
     function printHead(){
         ?>
         <head>
@@ -59,18 +55,34 @@
             <nav>
                 <ul>
                     <li><a href="#">index</a></li>
-                    <li><a href="#">2</a></li>
-                    <li><a href="#">3</a></li>
-                    <li><a href="#">4</a></li>
-                    <li><a href="#">5</a></li>
-                    <li><a href="#">6</a></li>
                 </ul>
             </nav>
         </header>
         <?php
     }
+    
+    //print a single div with specific characteristics
+    function printDiv($contenuto, $class="", $id=""){
+        echo "<div";
+        if($class!=""){
+            echo " class='".$class."'";
+            //function to add style that changes the class or id
+        }
+        if($id!="")echo " id='".$id."'";
+        echo ">".$contenuto;
+        echo "</div>";
+    }
 
+    //function repeat (number e string) prints the string as many times as the number and endline after every print
+    function repeat($number, $string,$checker=false){
+        for($i=0;$i<$number;$i++){
+            if($checker){ //put a checker to check the number
+                echo $i+1 ." ";
+            }
+            echo printDiv($string . "<br>","class","id");
+        }
+    }
 
-
+    
 
 ?>

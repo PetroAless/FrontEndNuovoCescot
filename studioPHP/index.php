@@ -13,16 +13,17 @@
     <body>
         <?php printHeader();//print the basic header with style and what not 
         ?>
-
+        <main>
         <?php
 
             
             // ------------------"MAIN"----------------
             //stampaBelSito();//print with a bit of style
             //stampaNDiv(20);//print with n of div and a little bit of more complex css to understand
-            
-
+            //printDiv("ciao!","class","id");
+            repeat(12,"ciao");
 
         ?>
+        </main>
     </body>
 </html>

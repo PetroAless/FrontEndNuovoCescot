@@ -26,6 +26,7 @@ guida su eurosoftlab.com/frontend, oppure tramite accesso alle whiteboard con al
                 }
                 </style>"
             */
+            //u can add tags and style to work on virtually everything  
 
 
 ------      si possono stampare pezzi di html come <head></head> oppure altri tag utili, in modo da poterli riutilizzare su ogni
