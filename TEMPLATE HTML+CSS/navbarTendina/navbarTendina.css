@@ -23,10 +23,6 @@ div nav ul{
     padding-left: 0;/*rimuovere il padding a caso della ul che stacca il logo dal lato sinistro*/
 }
 
-div#logo li a img{ /*immagine home */
-    display: block; /*display block per modificare altezza in un inline element*/
-    height: 100px; /*definisico la altezza dell'immagine in base al resto*/
-}
 
 div nav ul div#altriPulsanti{  /*elementi della navbar*/
     display: inherit;  /*flex*/
