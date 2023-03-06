@@ -28,8 +28,13 @@ main{
 
 
 
-.crea_divClass{
+.evenClass{
     border:1px black solid;
     background-color: blue;
     color:white;
+}
+.unevenClass{
+    border:1px darkgreen solid;
+    background-color: orange;
+    color:blue;
 }
