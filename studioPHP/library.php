@@ -88,4 +88,13 @@
 
 
 
+
+
+    function crea_div($text,$nDiv,$class){
+        for($i=0;$i<$nDiv;$i++){
+            printDiv($text,$class);
+        }
+    }
+
+
 ?>

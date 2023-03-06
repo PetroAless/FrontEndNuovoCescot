@@ -21,7 +21,8 @@
             //stampaBelSito();//print with a bit of style
             //stampaNDiv(20);//print with n of div and a little bit of more complex css to understand
             //printDiv("ciao!","class","id");
-            repeat(12,"ciao", true);
+            //repeat(12,"ciao", true);
+            crea_div("Ciao mondo!",20,"crea_divClass");
 
         ?>
         </main>

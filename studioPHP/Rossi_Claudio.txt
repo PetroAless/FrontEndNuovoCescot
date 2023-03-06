@@ -37,5 +37,5 @@ guida su eurosoftlab.com/frontend, oppure tramite accesso alle whiteboard con al
 
 
             
-
+PHP è debolmente tipizzato e può cambiare tipo in maniera semplice
 
