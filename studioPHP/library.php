@@ -5,7 +5,7 @@
      * 
      * 
      */
-    const colors = ["black","green","red","blue","yellow","pink","orange","brown","grey"];
+    const colors = ["grey","green","red","blue","yellow","pink","orange","brown","black"];
     const colorsLength = 9;
     function stampaBelSito(){ //print of a bit of style with a micro array of colors, also BEL SITO TOBIAS
         for($i=0;$i<colorsLength;$i++){
@@ -91,13 +91,24 @@
 
 
     function crea_div($text,$nDiv,$class1,$class2=""){
-        
         for($i=0;$i<$nDiv;$i++){
             if($i%2==0||$class2==""){
                 printDiv($text,$class1);
             }else{
                 printDiv($text,$class2);
             }
+        }
+    }
+    function stampaDoppioArray($arrVal,$arrClass){
+        if(count($arrVal)!=count($arrClass)){
+            echo "array hanno lunghezza diversa";
+            return;
+        }
+        $n=count($arrVal);
+        for ($i=0; $i < $n; $i++) { 
+            echo "<div class='".$arrClass[$i]."'>";
+            echo $arrVal[$i];
+            echo "</div><br>";
         }
     }
 ?>
