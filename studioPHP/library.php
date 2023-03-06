@@ -90,11 +90,14 @@
 
 
 
-    function crea_div($text,$nDiv,$class){
+    function crea_div($text,$nDiv,$class1,$class2=""){
+        
         for($i=0;$i<$nDiv;$i++){
-            printDiv($text,$class);
+            if($i%2==0||$class2==""){
+                printDiv($text,$class1);
+            }else{
+                printDiv($text,$class2);
+            }
         }
     }
-
-
 ?>
