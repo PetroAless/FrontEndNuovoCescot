@@ -21,7 +21,13 @@
             //stampaBelSito();//print with a bit of style
             //stampaNDiv(20);//print with n of div and a little bit of more complex css to understand
             //printDiv("ciao!","class","id");
-            repeat(12,"ciao", true);
+            //repeat(12,"ciao", true);
+            //crea_div("Ciao mondo!",200,"evenClass","unevenClass");
+            
+
+            stampaDoppioArray(["pippo","pluto","paperino"],["class1","class2","class3"]);
+
+
 
         ?>
         </main>

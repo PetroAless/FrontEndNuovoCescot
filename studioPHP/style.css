@@ -22,15 +22,29 @@ ul li a{
     text-decoration: none;
 }
 main{
-    font-size: 70px;
+    font-size: 50px;
     font-weight: bolder;
 }
-.class{/*default class to be used for checking or more*/
-    background-color: rgba(0, 255, 255, 0.329);
+
+
+
+.evenClass{
+    border:1px black solid;
+    background-color: blue;
+    color:white;
 }
-#id{/*default id to be used for checking or more*/
-    color:rgba(190, 16, 138, 0.479);
+.unevenClass{
+    border:1px darkgreen solid;
+    background-color: orange;
+    color:blue;
 }
-section{
-    padding: 30px;
+
+.class1{
+    color:green;
+}
+.class2{
+    color:red;
+}
+.class3{
+    color:blue;
 }
