@@ -3,34 +3,41 @@
     margin: 0px;
     border: 0px;
     box-sizing: border-box;
+    
 }
 body{
     background-color: rgba(247, 229, 150, 0.766);
+}
+a{
+    text-decoration: none;
 }
 header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding:40px;
+    padding:30px;
+    padding-right: 20px;
     background-color: darkorange;
-    border-bottom-left-radius: 40px;
-    border-bottom-right-radius: 40px;
+    border-radius: 40px;
 }
-nav ul{
+#normalNav ul{
     display: flex;
     list-style-type: none;
 }
-nav a{
+#normalNav a{
     padding: 17px;
-    text-decoration: none;
     color: blanchedalmond;
     font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
-nav li a:hover{
+#normalNav li a:hover{
     border:0.1px solid;
     border-radius: 12px;
     padding:16px;
+    padding-right: 9px;
+    padding-left: 9px;
     margin-top: 1px;
     background-color: blanchedalmond;
     color:black;
@@ -48,22 +55,70 @@ nav li a:hover{
 }
 
 #logo{
+    flex-grow: 4;
+}
+#logo img{
     width:100px;
 }
 
 #nomeSito{
     font-family: "Brush Script MT";
     font-size: 50px;
-    position: relative;
-    left: 200px;
+    flex-grow: 2;
+    text-align: center;
+}
+#nomeSito p{
+    font-size: 30px;
+    color: blanchedalmond;
 }
 #nomeSito a{
-    text-decoration: none;
+    
     color: blanchedalmond;
 }
 
-main{
+
+
+#smallNav{
+    display: none;
+    flex-direction: column;
+    flex-grow: 4;
+    text-align: end;
 }
+#smallNav li{
+    display: none;
+}
+#smallNav span{
+    font-size: 60px;
+    color: blanchedalmond;
+}
+#smallNav #smallDiv{
+    width: 54px;
+    
+    float: right;
+}
+
+#smallDiv:hover #smallLis{
+    
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 2px;
+    width: 120px;
+    background-color: darkorange;
+    text-align: center;
+    border-radius: 20px;
+}
+#smallDiv:hover li{
+    display: inline;
+}
+#smallDiv a{
+    color: blanchedalmond;
+}
+
+
+
+
+
 .sectionMain{
     
     margin: auto;
@@ -79,23 +134,27 @@ main{
 }
 .Img{
     background-color: rgb(255, 211, 157);
-    display: flex;
-    justify-content: space-evenly;
-    padding: 100px;
+    display: block;
+
+    padding: 50px;
     border-radius: 80px;
     margin-bottom: 20px;
+    height: 500px;
 }
 .Img img{
-    height: 500px;
+    display: block;
+    height: 400px;
     background-color: blanchedalmond;
     border-radius: 50px;
+    float: left;
+    margin-right: 0;
 }
 .Img figcaption {
+    width: 40%;
     font-size: 30px;
+    float: right;
 }
-#primaSectionDelMain section article img{
-    height:400px;
-}
+
 
 #barraInMezzo{
     background-color: darkorange;
@@ -106,7 +165,7 @@ main{
 }
 
 footer{
-    
+    width: 100%;
     height: 300px;
     background-color: rgb(255, 186, 101);
 }
@@ -115,20 +174,70 @@ footer{
     display: flex;
     flex-direction: column;
     height: 300px;
+    width: 40%;
     justify-content: space-around;
     position:relative;
-    right:50px;
+    padding: 30px;
+    text-align: end;
+    flex-wrap: wrap;
 }
 #footerDx span{
     position:relative;
     bottom:10px;
 }
 #footerDx a{
-    text-decoration: none;
     color:black;
 }
 #footerSx{
     float: left;
-    margin-top: 230px;
+    width: 60%;
+    position: relative;
+    top:200px;
+}
+
+@media screen and (max-width:1200px) {
+    .Img img{
+        height: 300px;
+    }
+    .Img figcaption{
+        font-size: 20px;
+    }
     
+}
+@media screen and (max-width:1100px) {
+    #logo img{
+        width: 60px;
+    }
+    #nomeSito{
+        font-size: 40px;
+    }
+    #primaSectionDelMain h1{
+        font-size: 30px;
+    }
+    footer{
+
+    }
+}
+@media screen and (max-width:960px){
+    #normalNav{
+        display: none;
+    }
+    #smallNav{
+        display:block;
+    }
+
+    .Img{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 800px;
+    }
+    .Img img{
+        height: auto;
+        width:600px;
+    }
+    .Img figcaption{
+        font-size: 25px;
+        width: 500px;
+    }
 }
