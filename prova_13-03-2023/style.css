@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    padding:0px;
+    margin: 0px;
+    border:0px;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    height: 100px;
+    display: flex;
+    background-color: blanchedalmond;
+    justify-content: space-between;
+    padding: 10px;
+}
+nav article img{
+    height: 80px;
+}
+ul{
+    height: 100px;
+    display: flex;
+    list-style-type: none;
+    padding: 30px;
+}
+li a{
+    padding: 20px;
+    color:chocolate;
+}
+
+li a:hover span{
+    color: coral;
+    border-bottom:3px solid rgb(183, 127, 36);
+}
+
+#actualP span{
+    color: coral;
+    border-bottom:3px solid rgb(183, 127, 36);
+}
+
+
+main{
+    
+}
+main section{
+    text-align: justify;
+}
+section h1{
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+#sect1{
+    display: flex;
+    justify-content: center;
+    background-color: darksalmon;
+    height:fit-content;
+}
+#sect1 article{
+    margin: 100px 60px;
+    width: 500px;height: 400px;
+    line-height: 1.6;
+    background-color: tomato;
+    padding: 30px;
+    color: blanchedalmond;
+
+}
+#sect1 #art1{
+    margin-top: 180px;
+    background-image: url('materiale/tramonto.png');
+    background-size: cover;
+}
+
+#sect2{
+    display: flex;
+    justify-content: space-evenly;
+}
+#sect2 figure{
+    height: 100px;
+}
+#sect2 figure img{
+    height: 70px;
+}
