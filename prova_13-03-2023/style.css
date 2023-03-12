@@ -4,15 +4,24 @@
     margin: 0px;
     border:0px;
 }
+body{
+    background-color: blanchedalmond;
+}
 a{
     text-decoration: none;
 }
 nav{
     height: 100px;
     display: flex;
-    background-color: blanchedalmond;
     justify-content: space-between;
+    align-items: center;
     padding: 10px;
+}
+nav h1{
+    font-size: 40px;
+}
+#h1art{
+    margin-left: 20%;
 }
 nav article img{
     height: 80px;
@@ -22,9 +31,12 @@ ul{
     display: flex;
     list-style-type: none;
     padding: 30px;
+    align-items: center;
+    
 }
-li a{
-    padding: 20px;
+
+#defUl li a{
+    padding: 15px;
     color:chocolate;
 }
 
@@ -103,17 +115,70 @@ section h1{
 
 
 footer{
-    height: 370px;
-    background-color: blanchedalmond;
-    padding: 40px;
+    height: 360px;
+    background-color: wheat;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
 }
 footer section{
     width: 60%;
-    margin: auto;
+    float: left;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: space-between;
 }
 footer article{
-    width: 32%;
+    height: 25%;
     background-color: aqua;
+}
+#social{
+    padding: 13px 0;
+}
+footer div{
+    height: 280px;
+    width: 180px;
+    padding: 140px 40px;
+    background-color: brown;
+}
+
+
+
+#smallUl{
+    display: none;
+    height: fit-content;
+}
+
+#smallUl div{
+    display: none;
+}
+#smallUl:hover div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    width: 100px;
+    right: 10px;
+    background-color: blanchedalmond;
+    border-radius: 20px;
+    height: 150px;
+}
+#smallUl a{
+    color:chocolate;
+}
+#smallUl:hover li{
+    width: fit-content;
+}
+b{
+    cursor: pointer;
+    font-size: 30px;
+}
+@media screen and (max-width:930px) {
+    #defUl{
+        display: none;
+    }
+    #smallUl{
+        display: block;
+    }
 }
