@@ -1,0 +1,417 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    border:0;
+}
+body{
+    background-color: aliceblue;
+}
+a{
+    text-decoration: none;
+}
+header{
+    position: sticky;
+    top:0;
+    width: 100%;
+    background-color: aliceblue;
+}
+nav{
+    height: 150px;
+}
+nav h1{/*Appunti di Viaggio sopra sx*/
+    font-size: 3vw;
+    text-align: center;
+    
+    width: 30vw;
+    
+    padding-top: 30px;
+
+    float:left;
+    
+    color: cadetblue;
+}
+ul{
+    height: fit-content;
+
+    padding: 40px 50px 0 0;
+
+    list-style-type: none;
+    
+    display: flex;
+    float: right;
+}
+ul li{
+    padding: 2vw 6vw 0 0;
+    height: fit-content;
+}
+ul li a{
+    padding: 1.4vw 1vw;
+    
+    font-size: 1.5vw;
+
+    color: #424242a8
+}
+ul #contt{/*pulsante contatti*/
+    color: black;
+
+    padding:1vw 4vw;
+    border:2px solid;
+    border-bottom: 3px solid;
+    border-radius: 5px;
+
+    font-weight: 900;
+}
+ul li a span{/*pagina attuale*/
+    color: cadetblue;
+
+    padding: 1px;
+    border-bottom: 1px solid;
+}
+
+section{
+    margin-bottom: 30px;
+}
+
+#sect1{
+    width: 80vw;
+    
+    overflow: hidden;
+    padding:40px 0;
+    margin:auto;
+
+}
+#sect1 figcaption{
+    width: 30vw;
+
+    margin:0px 2vw;
+
+    float:left;
+}
+#sect1 h1{
+    font-size: 4.5vw;
+    font-weight: bolder;
+}
+#sect1 p{
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+    font-size: 1.2vw;
+}
+#sect1 img{
+    float: left;
+
+    width: 45vw;
+}
+#sect1 a{
+    color:white;
+    background-color: cadetblue;
+    
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+
+#sect2{
+    background-color: rgb(36, 36, 36);
+    
+    height: 50%;
+}
+#sect2 article{
+    width:32vw;
+    height: 100%;
+
+    margin:auto;
+
+    color:white;
+    
+    text-align: center;
+}
+#sect2 h1{
+    font-size: 3.2vw;
+    font-weight: 900;
+    padding: 15px 0;
+}
+#sect2 p{
+    padding: 15px 0;
+
+    font-size: 1.6vw;
+}
+#sect2 a{
+    color: white;
+
+    padding: 10px 10px;
+    border:2px solid;
+    border-radius: 4px;
+}
+
+
+#sect3{
+    width: 85vw;
+    
+    margin:auto;
+
+    overflow: hidden;
+}
+#sect3artH{
+    width: 80vw;
+    
+    margin:auto;
+    
+    float:none;
+    
+    text-align: center;
+}
+#sect3artH h1{
+    font-size: 5vw;
+    font-weight: 900;
+
+    padding: 15px 0;
+}
+#sect3artH p{
+    width: 70%;
+
+    margin:auto;
+    margin-bottom: 20px;
+
+    font-size: 1.5vw;
+}
+
+.sect3arts{
+    width: min-content;
+
+    margin:auto;
+    padding: 2vw;
+
+    float: left;
+}
+.sect3arts img{
+    width: 38vw;
+}
+#sect3 figcaption p{
+    font-size: 1.8vw;
+    margin: 15px 0;
+}
+#sect3 figcaption span{
+    text-decoration: underline;
+    font-weight: 600;
+    line-height: 1.6;
+    font-size: 2.32vw;
+}
+
+
+#sect4{
+    width:100%;
+    height: 85vh;
+
+    padding: 70px 0;
+
+    overflow: hidden;
+    
+    background-color: rgb(36, 36, 36);
+}
+
+#sect4 figcaption{
+    width: 30vw;
+
+    float:left;
+
+    margin:0 2vw 0 12vw;
+
+    color:white;
+}
+#sect4 h1{
+    font-size: 3.7vw;
+}
+#sect4 h2,#sect4 p{
+    margin: 30px 0;
+}
+#sect4 img{
+    float:right;
+    width: 50vw;
+}
+#artDest{
+    background-color: rgb(36, 36, 36);
+    color: white;
+    margin-bottom: 50px;
+}
+#artDest h1{
+    width: 60%;
+    
+    margin: auto;
+
+    font-size: 4vw;
+    text-align: center;
+
+}
+#artDest p{
+    width: 60%;
+    
+    margin: auto;
+
+    font-size: 1.6vw;
+
+    text-align: center;   
+}
+#artDest em{
+    font-weight: 900;
+}
+
+#divDest article{
+    width: 100%;
+    height: 300px;
+    
+    margin:50px auto;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#divDest article h2{
+    width: 25%;
+
+    text-align: justify;
+    font-size: 1.4vw;
+}
+#divDest img{
+    width: 24%;
+    height: fit-content;
+}
+footer{
+    height: 300px;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+
+    padding-top: 50px;
+
+    background-color: rgb(211, 220, 227);
+}
+footer section{
+    width:30%;
+    text-align: center;
+}
+footer h1{
+    width: 250px;
+    
+    margin:auto;
+
+    font-size: 4vw;
+
+    color:cadetblue;
+    margin-bottom: 60px;
+}
+footer div{
+    width: 30%;
+}
+footer figure{
+    padding-top: 150px;
+
+    text-align: center;
+}
+footer figure img{
+    padding: 10px;
+}
+
+
+
+
+@media screen and (max-width:785px){
+    header{
+        position:static
+    }
+    nav h1{
+        margin: auto;
+        
+        float: none;
+        
+        font-size: 6vw;
+    }
+    nav{
+        height: max-content;
+        margin-bottom: 30px;
+    }
+    ul{
+        height: fit-content;
+        
+        float:none;
+
+        flex-direction: column;
+
+        text-align: center;
+
+        padding: 0;
+    }
+    ul li{
+        padding-right: 0;
+    }
+    ul li a{
+        font-size: 4vw;
+    }
+
+    p#notButton{
+        font-size: 2vw;
+        height: 38px;
+    }
+
+    #sect1 a{
+        font-size: 1.7vw;
+    }
+
+    #sect4{
+        text-align: center;
+    }
+    #sect4 img{
+        float: none;
+    }
+    #sect4 figcaption{
+        float:none;
+        margin:auto;
+        width: 60%;
+    }
+    #sect4 h1{
+        font-size: 14px;
+        margin: 12px;
+    }
+    #sect4 h2{
+        font-size: 12px;
+        margin: 12px;
+    }
+    #sect4 p{
+        margin: 10px;
+        font-size: 10px;
+    }
+
+
+    footer{
+        flex-direction: column;
+        justify-content: space-evenly;
+
+        padding:0;
+
+        text-align: center;
+    }
+    footer figure{
+        padding:0;
+    }
+    footer img{
+        padding: 10px;
+    }
+    footer section{
+        margin: auto;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    footer h1{
+        width: fit-content;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    footer p{
+        margin-bottom: 10px;
+    }
+    footer div{
+        display: none;
+    }
+}
