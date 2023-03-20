@@ -1,0 +1,20 @@
+.importante{
+    background-color: lightgrey;
+}
+section{
+    display: flex;
+    justify-content: space-evenly;
+}
+section .btn{
+    width: 100px;
+    height: 100px;
+    background-color: slategrey;
+}
+.container{
+    width: 100%;
+}
+.content{
+    width: 200px;
+    height: 200px;
+    background-color: darkkhaki;
+}
