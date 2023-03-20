@@ -16,11 +16,15 @@ function js(){
     cls.value="importante";
     
     let dvn;
+    let pn;
+    let str1="div numero ";
     for(let i=0;i<10;i++){
         dvn = document.createElement("div");
+        pn = document.createElement("p");
         dvn.setAttribute("class","importante");
-        dvn.innerHTML="div nel for";
+        pn.innerHTML=str1+i;
         document.body.append(dvn);
+        dvn.appendChild(pn);
     }
 }
 addEventListener("DOMContentLoaded",js);
